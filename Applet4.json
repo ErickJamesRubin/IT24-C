@@ -1,0 +1,38 @@
+[
+    {
+        "game_id": 1,
+        "game_name": "Super Mario Bros",
+        "game_release_year": "1985",
+        "game_genre": "Platform"
+    },
+    {
+        "game_id": 2,
+        "game_name": "Mobile Legends",
+        "game_release_year": "2016",
+        "game_genre": "MOBA"
+    },
+    {
+        "game_id": 3,
+        "game_name": "Dota",
+        "game_release_year": "2013",
+        "game_genre": "MOBA"
+    },
+    {
+        "game_id": 4,
+        "game_name": "Clash of Clans",
+        "game_release_year": "2012",
+        "game_genre": "Strategy"
+    },
+    {
+        "game_id": 5,
+        "game_name": "NBA 2k20",
+        "game_release_year": "2018",
+        "game_genre": "Sports"
+    },
+    {
+        "game_id": 6,
+        "game_name": "Honor of Kings",
+        "game_release_year": "2015",
+        "game_genre": "MOBA"
+    }
+]
