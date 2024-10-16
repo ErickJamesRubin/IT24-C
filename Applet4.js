@@ -5,4 +5,10 @@ class StudentList {
         this.init();
     }
 
+    async init() {
+        await this.fetchData();
+        this.renderStudentList(this.students); 
+        this.bindSearchEvent();
+    }
+
 }
