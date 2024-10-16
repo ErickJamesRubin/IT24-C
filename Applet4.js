@@ -1,56 +1,59 @@
 class StudentList {
     constructor(dataUrl) {
         this.dataUrl = dataUrl;
-        this.students = [];
+        this.games = [];
         this.init();
-    }
+    }   
 
     async init() {
         await this.fetchData();
-        this.renderStudentList(this.students); 
+        this.renderGameList(this.games);
         this.bindSearchEvent();
     }
+
 
     async fetchData() {
         try {
             const response = await fetch(this.dataUrl);
-            this.students = await response.json();
+            this.games = await response.json();
         } catch (error) {
             console.error('Error fetching data:', error);
         }
     }
 
-    renderStudentList(students) {
-        const studentSearchListContainer = document.getElementById('studentSearchList');
-        studentSearchListContainer.innerHTML = '';  
 
-        students.forEach(student => {
-            studentSearchListContainer.innerHTML += `
-                <p> ${student.student_name}</p>
-                <p class="fw-light"> ${student.student_program} </p>
-                <hr>
-            `;
-        });
+    renderGameList(games) {
+        const gameListContainer = document.getElementById('gameList');
+        gameListContainer.innerHTML = games.map(game =>
+            `<button class="btn btn-primary" style="margin-top:15px; 
+                                                    width:25rem">
+                ${game.game_name} | ${game.game_release_year}
+            </button><br>`
+        ).join('');
     }
 
     bindSearchEvent() {
-        const studentSearchBar = document.getElementById('studentSearchBar');
+        const gameSearchBar = document.getElementById('gameSearchBar');
+        const gameSearchListContainer = document.getElementById('gameSearchList');
 
-        studentSearchBar.addEventListener('input', () => {
-            this.filterStudents(studentSearchBar.value);
+        gameSearchBar.addEventListener('input', () => {
+            this.filterGames(gameSearchBar.value, gameSearchListContainer);
         });
 
-        this.renderStudentList(this.students);
+        this.renderGameList(this.games, gameSearchListContainer);
     }
 
-    filterStudents(query) {
-        const filteredStudents = this.students.filter(student => {
-            const fullName = `${student.student_name} ${student.student_program}`;
-            return fullName.toLowerCase().includes(query.toLowerCase());
+    
+    filterGames(query, searchListContainer) {
+        const filteredGames = this.games.filter(game => {
+            return game.game_name.toLowerCase().includes(query.toLowerCase());
         });
 
-        this.renderStudentList(filteredStudents);
+        searchListContainer.innerHTML = '';
+
+        this.renderGameList(filteredGames, searchListContainer);
     }
+
 }
 
-const studentList = new StudentList('applet-4.json');
+const gameList = new GameList('applet-4.json');
