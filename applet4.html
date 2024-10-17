@@ -16,6 +16,28 @@
         .container-fluid {
             height: 100%;
         }
+        .game-list {
+            float: left;
+            width: 20%;
+            padding: 1rem;
+            border-right: 1px solid #ccc;
+            height: 100%;
+        }
+        .search-container {
+            display: flex; 
+            flex-direction: column; 
+            align-items: flex-start; 
+            margin-left: 3rem; 
+        }
+        #gameSearchList {
+            margin-top: .5rem; 
+            max-width: 100%; 
+            width: 100%;
+            border: 1px solid #ccc;
+            padding: 1rem; 
+            border-radius: 5px; 
+            background: white; 
+        }
     </style>
 </head>
 <body>
@@ -46,11 +68,13 @@
     </div>
 </nav>
 <div class="container" style="max-width: 60vw;">
-    <div class="input-group input-group-lg input-search">
-      <span class="input-group-text">Search</span>
-      <input type="text" class="form-control" id="gameSearchBar" placeholder="Search for a game..." autocomplete="off">
+    <div class="search-container"> <!-- Wrap search input and results in a flex container -->
+        <div class="input-group input-group-lg input-search">
+          <span class="input-group-text">Search</span>
+          <input type="text" class="form-control" id="gameSearchBar" placeholder="Search for a game..." autocomplete="off">
+        </div>
+        <div id="gameSearchList"></div> <!-- Search results will appear here -->
     </div>
-    <div id="gameSearchList" style="margin-top:.5rem; margin-left: 3.5rem;"></div>
 </div>
 <script src="Applet4.js"></script>
 </body>
