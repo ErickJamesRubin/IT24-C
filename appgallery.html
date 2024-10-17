@@ -12,15 +12,23 @@
             margin-left: 3rem;
             text-align: center;
         }
+
+        /* Flex container for cards */
         .applet-flex-container{
             display: flex;
             justify-content: center;
             margin: 3rem;
             justify-content: space-between;
         }
+
         .applet-flex-container > div{
             margin-left: 1rem;
-            transition: transform 0.3s ease-in-out;   
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;   
+        }
+
+        .card:hover {
+            transform: scale(1.05); 
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
         }
     </style>
 
@@ -61,7 +69,7 @@
   <h1 style="text-align: center; font-weight: bold; margin-top: 2rem;">Applet in Event Driven Programming</h1>
 
     <div class="applet-flex-container">
-        <!--Applet 1 diay ni-->
+        <!--Applet 1-->
         <div class="card" style="width: 20rem; border: 2px solid #000000; border-radius: 5px;">
             <img src="https://imgs.search.brave.com/fhL1Swdaa9KxEHSdkOejsPf_k8FPP0iJECHyNmqDpRQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvdGhlLXRl/Y2hub2xvZ3ktaXMt/d2lubmluZy1nMWNj/YzlrenpqZWN4djln/LmdpZg.gif" class="card-img-top" alt="Description of Image" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="card-body">
@@ -71,7 +79,7 @@
            </div>
         </div>
 
-        <!--Applet 2 diay ni-->
+        <!--Applet 2-->
         <div class="card" style="width: 20rem; border: 2px solid #000000; border-radius: 5px;">
             <img src="https://imgs.search.brave.com/SLkbQqtK-q8EEqngWDQQgxYQEYZ_up4Al_RMyOXhOys/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTQuZ2lwaHkuY29t/L21lZGlhL1RnNnh6/cDFWSjRLbDlTSWEz/bC8yMDAuZ2lmP2Np/ZD03OTBiNzYxMTh4/YjA3am1qMDI2cTB1/Y2IwZ2x2a2NxdGhk/ejh5NW00d3YxbWhn/bTYmZXA9djFfZ2lm/c19zZWFyY2gmcmlk/PTIwMC5naWYmY3Q9/Zw.gif" class="card-img-top" alt="Description of Image" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="card-body">
@@ -81,7 +89,7 @@
            </div>
         </div>
 
-        <!--Applet 3 diay ni-->
+        <!--Applet 3-->
         <div class="card" style="width: 20rem; border: 2px solid #000000; border-radius: 5px;">
             <img src="https://imgs.search.brave.com/HXY-PI85-MTV2cyOU5YTDKSljYoqVeulr7e8mSbpHCQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTQuZ2lwaHkuY29t/L21lZGlhL3dsd0VR/UUdVNUdKTUNIUEZW/bi8yMDAuZ2lmP2Np/ZD03OTBiNzYxMTQ5/d3F2b2NzbTh1NnZp/b3ZocW85Mnd2OXE4/MDM0bDA2M25xbXd1/NGUmZXA9djFfZ2lm/c19zZWFyY2gmcmlk/PTIwMC5naWYmY3Q9/Zw.gif" class="card-img-top" alt="Description of Image" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="card-body">
@@ -91,7 +99,7 @@
            </div>
         </div>
 
-        <!--Applet 4 diay ni-->
+        <!--Applet 4-->
         <div class="card" style="width: 20rem; border: 2px solid #000000; border-radius: 5px;">
           <img src="https://imgs.search.brave.com/aXL7mZQHqxCr6KBqgBpgZANo42j06meviE6RAWGQR-Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5naXBoeS5jb20v/bWVkaWEvbDNxMlhC/NzZDYVdQZ2dpTlcv/Z2lwaHkuZ2lm.gif" class="card-img-top" alt="Description of Image" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
           <div class="card-body">
