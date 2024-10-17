@@ -16,13 +16,6 @@
         .container-fluid {
             height: 100%;
         }
-        .game-list {
-            float: left;
-            width: 20%;
-            padding: 1rem;
-            border-right: 1px solid #ccc;
-            height: 100%;
-        }
         .search-container {
             display: flex; 
             flex-direction: column; 
@@ -68,12 +61,12 @@
     </div>
 </nav>
 <div class="container" style="max-width: 60vw;">
-    <div class="search-container"> <!-- Wrap search input and results in a flex container -->
+    <div class="search-container"> 
         <div class="input-group input-group-lg input-search">
           <span class="input-group-text">Search</span>
           <input type="text" class="form-control" id="gameSearchBar" placeholder="Search for a game..." autocomplete="off">
         </div>
-        <div id="gameSearchList"></div> <!-- Search results will appear here -->
+        <div id="gameSearchList"></div>
     </div>
 </div>
 <script src="Applet4.js"></script>
