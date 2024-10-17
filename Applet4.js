@@ -25,11 +25,13 @@ class GameList {
         gameSearchListContainer.innerHTML = '';  
 
         games.forEach(game => {
+            // Game box layout with sky blue background
             gameSearchListContainer.innerHTML += `
-                <p>${game.game_name}</p>
-                <p class="fw-light">${game.game_genre}</p>
-                <p class="text-muted">${game.game_release_year}</p>
-                <hr>
+                <div class="game-box p-3 mb-3" style="background-color: skyblue; border-radius: 5px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+                    <h5>${game.game_name}</h5>
+                    <p class="fw-light">Genre: ${game.game_genre}</p>
+                    <p class="text-muted">Year Published: ${game.game_release_year}</p>
+                </div>
             `;
         });
     }
