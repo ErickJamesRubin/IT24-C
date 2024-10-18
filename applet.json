@@ -1,0 +1,26 @@
+[
+    {
+        "Applet_No": "Applet 1 - Basic Events",
+        "Description": "This application contains basicS events in programming, allowing users to interact with simple actions",
+        "file": "applet1.html",
+        "Image": "https://imgs.search.brave.com/fhL1Swdaa9KxEHSdkOejsPf_k8FPP0iJECHyNmqDpRQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvdGhlLXRl/Y2hub2xvZ3ktaXMt/d2lubmluZy1nMWNj/YzlrenpqZWN4djln/LmdpZg.gif"
+      },
+      {
+        "Applet_No": "Applet 2 - Leaflet Map",
+        "Description": "This application allows users to explore interactive maps using simple tools for zooming, panning, and adding markers.",
+        "file": "applet2.html",
+        "Image": "https://imgs.search.brave.com/SLkbQqtK-q8EEqngWDQQgxYQEYZ_up4Al_RMyOXhOys/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTQuZ2lwaHkuY29t/L21lZGlhL1RnNnh6/cDFWSjRLbDlTSWEz/bC8yMDAuZ2lmP2Np/ZD03OTBiNzYxMTh4/YjA3am1qMDI2cTB1/Y2IwZ2x2a2NxdGhk/ejh5NW00d3YxbWhn/bTYmZXA9djFfZ2lm/c19zZWFyY2gmcmlk/PTIwMC5naWYmY3Q9/Zw.gif"
+      },
+      {
+        "Applet_No": "Applet 3 - Event Logger",
+        "Description": "This application helps users display on what happens when they click buttons, showing a simple log of their actions.",
+        "file": "applet3.html",
+        "Image": "https://imgs.search.brave.com/HXY-PI85-MTV2cyOU5YTDKSljYoqVeulr7e8mSbpHCQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTQuZ2lwaHkuY29t/L21lZGlhL3dsd0VR/UUdVNUdKTUNIUEZW/bi8yMDAuZ2lmP2Np/ZD03OTBiNzYxMTQ5/d3F2b2NzbTh1NnZp/b3ZocW85Mnd2OXE4/MDM0bDA2M25xbXd1/NGUmZXA9djFfZ2lm/c19zZWFyY2gmcmlk/PTIwMC5naWYmY3Q9/Zw.gif"
+      },
+      {
+        "Applet_No": "Applet 4 - Dynamic Elements",
+        "Description": "This application allows users visualize the effects of button clicks for clear and interactive log of actions in real-time.",
+        "file": "applet4.html",
+        "Image": "https://imgs.search.brave.com/aXL7mZQHqxCr6KBqgBpgZANo42j06meviE6RAWGQR-Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5naXBoeS5jb20v/bWVkaWEvbDNxMlhC/NzZDYVdQZ2dpTlcv/Z2lwaHkuZ2lm.gif"
+      }
+]
