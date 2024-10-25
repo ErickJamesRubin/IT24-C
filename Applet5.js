@@ -39,3 +39,21 @@ class WeatherApp {
         this.weatherCard.style.display = 'block';
     }
 }
+
+class WeatherService extends WeatherApp {
+    async fetchWeather() {
+        const apiKey = this.apiKey.value;
+        const city = this.cityInput.value;
+
+        if (city && apiKey) {
+            const data = await this.getWeatherData(city, apiKey);
+            if (data) {
+                this.displayWeather(data);
+            } else {
+                alert('City not found. Please try again.');
+            }
+        } else {
+            alert('Please enter both API Key and City.');
+        }
+    }
+}
