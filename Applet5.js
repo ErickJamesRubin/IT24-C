@@ -106,3 +106,7 @@ class WeatherService extends WeatherApp {
     }
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+    // No need to manually show the modal; Bootstrap handles it with data-bs attributes
+});
+
