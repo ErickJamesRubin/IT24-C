@@ -23,16 +23,16 @@ class AppletGallery {
 
     renderAppletGallery(appletgallery) {
         const appletgalleryCont = document.getElementById('appletgalleryCont');
-    appletgalleryCont.innerHTML = appletgallery.map(applet => 
-        `<div class="card" style="width: 20rem; border: 2px solid #000000; border-radius: 5px; margin: 10px;"> 
-            <img src="${applet.Image}" class="card-img-top image" alt="${applet.Applet_No}" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
-            <div class="card-body">
-                <h5 class="card-title">${applet.Applet_No}</h5>
-                <p class="card-text">${applet.Description}</p>
-                <a href="${applet.file}" class="btn btn-primary text-center" style="display: block; width: 100%;">Go to Applet</a>
-            </div>
-        </div>`
-    ).join('');
+        appletgalleryCont.innerHTML = `<div style="display: flex; flex-wrap: wrap; justify-content: center;">` + appletgallery.map(applet => 
+            `<div class="card" style="width: 20rem; border: 2px solid #000000; border-radius: 5px; margin: 10px;"> 
+                <img src="${applet.Image}" class="card-img-top image" alt="${applet.Applet_No}" style="border-top-left-radius: 5px; border-top-right-radius: 5px; height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">${applet.Applet_No}</h5>
+                    <p class="card-text">${applet.Description}</p>
+                    <a href="${applet.file}" class="btn btn-primary text-center" style="display: block; width: 100%;">Go to Applet</a>
+                </div>
+            </div>`
+        ).join('');
     }
 
     bindSearchEvent() {
