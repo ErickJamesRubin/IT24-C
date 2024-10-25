@@ -22,5 +22,11 @@
         "Description": "This application allows users visualize the effects of button clicks for clear and interactive log of actions in real-time.",
         "file": "applet4.html",
         "Image": "https://imgs.search.brave.com/aXL7mZQHqxCr6KBqgBpgZANo42j06meviE6RAWGQR-Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5naXBoeS5jb20v/bWVkaWEvbDNxMlhC/NzZDYVdQZ2dpTlcv/Z2lwaHkuZ2lm.gif"
-      }
+      },
+      {
+        "Applet_No": "Applet 5 - Open Weather API",
+        "Description": "This application is the basic usage for OpenWeather API to fetch real-time weather data for any city globally.",
+        "file": "applet5.html",
+        "Image": "https://imgs.search.brave.com/nA98mV3O6ORFnsYFoQJcmBonBQ4kdq8FZFYx9gNzSgI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvcmFpbnkt/d2VhdGhlci1mb3Jl/Y2FzdC1hbmltYXRp/b24tdzZtY3AwZmV4/ZmJldXU2dy5naWY.gif"
+    }
 ]
