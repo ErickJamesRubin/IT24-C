@@ -28,5 +28,11 @@
         "Description": "This application is the basic usage for OpenWeather API to fetch real-time weather data for any city globally.",
         "file": "applet5.html",
         "Image": "https://imgs.search.brave.com/nA98mV3O6ORFnsYFoQJcmBonBQ4kdq8FZFYx9gNzSgI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvcmFpbnkt/d2VhdGhlci1mb3Jl/Y2FzdC1hbmltYXRp/b24tdzZtY3AwZmV4/ZmJldXU2dy5naWY.gif"
+    },
+    {
+        "Applet_No": "Applet 6 - Todo List",
+        "Description": "This application is a simple to-do list that helps users manage tasks by allowing them to add, edit, and remove items easily.",
+        "file": "applet6.html",
+        "Image": "https://i.imgflip.com/4z1ohk.gif"
     }
 ]
