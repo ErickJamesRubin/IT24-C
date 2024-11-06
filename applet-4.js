@@ -55,4 +55,4 @@ class GameList {
     }
 }
 
-const gameList = new GameList('Applet4.json');
+const gameList = new GameList('applet-4.json');
